@@ -319,6 +319,52 @@ li a:hover {
     margin-right: 5px;
 }
 
+
+/*----------------- contact me area style ---------------- */
+.contact {
+    background-color: #e5547328;
+}
+
+.contact-form textarea,
+.contact-form input {
+    color: #000;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 15px 15px 0;
+    margin: 20px 0;
+    border: none;
+    background: transparent;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #0E88F1;
+}
+
+textarea:focus-visible,
+input:focus-visible {
+    border: 1px solid white;
+}
+
+.contact-form input:first-child {
+    width: 48%;
+    margin-right: 3%;
+}
+
+.contact-form input:nth-child(2) {
+    width: 48%;
+}
+
+.contact-form .from-submit {
+    background-image: linear-gradient(to right, #e55473bf, #E55473);
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contact-form .from-submit {
+    background-image: linear-gradient(to right, #E55473, #e55473bf);
+}
+
 /* --------------footer area style --------------- */
 .footer-area {
     text-align: center;
