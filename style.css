@@ -15,19 +15,19 @@ h4,
 a {
     color: #272727;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 38px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 34px;
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 h4 {
@@ -136,6 +136,10 @@ p {
     top: 0;
 }
 
+.nav-area .flex-area {
+    align-items: center;
+}
+
 .logo-area {
     width: 40%;
 }
@@ -145,13 +149,13 @@ p {
 }
 
 .logo-area h1 {
-    font-size: 60px;
+    font-size: 40px;
     cursor: pointer;
 }
 
 ul {
     float: right;
-    margin-top: 30px;
+
 }
 
 li {

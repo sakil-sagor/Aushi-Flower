@@ -1,0 +1,85 @@
+/* body{
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    grid-template-areas: 
+    ". . h h h h h h h h . ."
+    ". . m m m m m m m m . ."
+    ". . m m m m m m m m. ."
+    ". . m m m m m m m m . ."
+    ". . m m m m m m m m . ."
+    ". . m m m m m m m m . ."
+    ". . f f f f f f f f . ."
+
+    ;
+} */
+/* header {
+    grid-area: h;
+}
+
+main {
+    grid-area: m;
+}
+
+footer {
+    grid-area: f;
+}
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 1000px;
+        margin: auto;
+        padding: 100px 5px;
+    }
+
+    .flex-area {
+        justify-content: space-between;
+    }
+
+    .hero-area-top {
+        width: 1000px;
+        margin: auto;
+        padding: 0px 5px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .hero-area-top .left-area {
+        width: 20%;
+
+    }
+
+    .hero-area-top .right-area {
+        width: 78%;
+    }
+
+
+
+    .logo-area {
+
+        text-align: left;
+
+    }
+
+
+}
