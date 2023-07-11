@@ -184,6 +184,10 @@ li a:hover {
     margin-top: 200px;
 }
 
+.image-area {
+    text-align: right;
+}
+
 .image-area img {
     width: 80%;
     height: auto;
