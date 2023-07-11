@@ -131,6 +131,9 @@ p {
 .nav-area {
     box-shadow: 0 6px 8px -7px #0E88F1;
     padding-bottom: 10px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
 }
 
 .logo-area {
@@ -187,8 +190,6 @@ li a:hover {
     margin-right: 0;
 }
 
-.featured-img,
-.featured-img,
 .featured-img {
     padding: 50px 50px 0;
     border-radius: 50% 50% 0 0;
@@ -254,6 +255,38 @@ li a:hover {
 .hot-deal-area-left p {
     font-size: 16px;
     color: #27272795;
+}
+
+
+/* --------------media area style --------------- */
+
+.media-area-blog {
+    width: 100%;
+}
+
+.media-area-blog .box {
+    padding: 0;
+    margin-right: 2%;
+    width: 100%;
+
+}
+
+.media-area-blog .box:nth-child(4) {
+    margin-right: 0;
+}
+
+
+
+.media-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.media-box h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
 }
 
 
