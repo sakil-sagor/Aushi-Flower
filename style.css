@@ -255,3 +255,31 @@ li a:hover {
     font-size: 16px;
     color: #27272795;
 }
+
+
+
+/* --------------footer area style --------------- */
+.footer-area {
+    text-align: center;
+    background-color: #0B0D17;
+}
+
+.footer-area .container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.footer-area h2 {
+    color: #fff;
+}
+
+
+.footer-area p {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 14px;
+}
+
+.footer-area .copyright {
+    color: gray;
+    font-size: 12px;
+}
