@@ -310,13 +310,20 @@ li a:hover {
 
 .subscribe-form input {
     padding: 10px 10px;
-    border-radius: 8px;
+
     border: 1px solid gray;
 }
 
 .subscribe-form input[type=text] {
     width: 60%;
-    margin-right: 5px;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+}
+
+.subscribe-form .subscribe-submit {
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+    cursor: pointer;
 }
 
 
@@ -359,6 +366,7 @@ input:focus-visible {
     display: block;
     margin: auto;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .contact-form .from-submit {
