@@ -52,10 +52,7 @@ p {
     margin-top: 40px;
 }
 
-button {
-    background-color: #;
-    color: #ffffff;
-}
+
 
 /* ------------default style --------------- */
 .container {
@@ -95,6 +92,10 @@ button {
     text-align: center;
     width: 50%;
     margin: 0 auto 70px;
+}
+
+.all-box .box:nth-child(3) {
+    margin-right: 0;
 }
 
 .box {
@@ -215,4 +216,42 @@ li a:hover {
     font-size: 20px;
     text-decoration: underline;
     text-align: center;
+}
+
+/* ------------support area style ---------------- */
+.support {
+    margin-bottom: 100px;
+}
+
+.support .container {
+    padding: 0;
+    background-color: #2727270f;
+}
+
+.all-box {
+    margin-right: 0;
+    text-align: center;
+}
+
+.followers {
+    width: 33%;
+}
+
+.followers p {
+    font-size: 16px;
+}
+
+/* ----------------hot-deal area style-------------  */
+.hot-deal-area {
+    background-color: #e5547328;
+    text-align: center;
+}
+
+.hot-deal-area .flex-area {
+    align-items: center;
+}
+
+.hot-deal-area-left p {
+    font-size: 16px;
+    color: #27272795;
 }
